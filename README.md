@@ -14,9 +14,9 @@ The Branch and Bound algorithm solves this problem by traversing possible routes
 ## 2. Modelling
 
 ### 2.1. Variables
-* `$x[i]$`: Variable representing the $i$-th stop of the route.
-* `$visited[v]$`: Variable noting whether the point $v$ has been visited or not.
-* `$load$`: Variable tracking the number of passengers currently on the bus.
+* $x[i]$: Variable representing the $i$-th stop of the route.
+* $visited[v]$: Variable noting whether the point $v$ has been visited or not.
+* $load$: Variable tracking the number of passengers currently on the bus.
 
 ### 2.2. Domains
 * $D(x[i]) = \{1, 2, ..., 2n\}$: The bus can only choose valid pick up or drop off points.
